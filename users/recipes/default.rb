@@ -1,6 +1,6 @@
 require_recipe 'ruby-shadow'
 
-groups = search(:groups)
+groups = [{:id => "rails", :gid => "1002"}]
 
 groups.each do |group|
   group group[:id] do
